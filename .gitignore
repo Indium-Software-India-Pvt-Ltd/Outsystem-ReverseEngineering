@@ -1,0 +1,13 @@
+# Regenerable extractor output (fragments + strings dumps run to ~4x input size)
+out/
+*.finf
+
+# Local OutSystems packages — keep deliberate, they may contain customer model data
+# (comment this out if a sample package is intended to be committed)
+# *.oap
+# *.oml
+
+# Noise
+__pycache__/
+*.pyc
+.DS_Store
